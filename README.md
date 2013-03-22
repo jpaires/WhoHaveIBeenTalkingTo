@@ -46,7 +46,7 @@ Having said that, here are the steps you should follow to see it live:
 
 2) Download and unzip this project to your computer (duh!)
 
-3)Run (double click) server.py at the root of the project. This will start a local websserver and automatically open a browser's window.
+3) Run (double click) server.py at the root of the project. This will start a local websserver and automatically open a browser's window.
 
 4) Enter your email (gmail accounts only) and password and login.
 

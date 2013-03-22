@@ -15,7 +15,7 @@ the tool and it provides information about e-mail relationships on a monthly bas
 - Secondary Timeline - Located on the left lower part of the visualization, the Secondary Timeline shows the same information as the main but on a daily basis.
 - Topic Cloud - Like a typical tagcloud, this visualization has the purpose of showing the most discussed/distinctive topics present in e-mail subjects.
 
-For more information, I stronggly recoment you to read the [full paper]("/docs/Final Papel.pdf")
+For more information, I strongly recommend you to read the [full paper]("docs/Final Papel.pdf")
 
 About the project Part II - A little history
 =====================

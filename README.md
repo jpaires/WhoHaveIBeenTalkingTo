@@ -46,6 +46,8 @@ Having said that, here are the steps you should follow to see it live:
 
 2) Download and unzip this project to your computer (duh!)
 
-- Run (double click) server.py at the root of the project. This will start a local websserver and automatically open a browser's window.
-- Enter your email (gmail accounts only) and password and login.
-- WHIBTT will now start indexing your email. Indexing all of your emails will take it's time but the application lets you see results with just a few emails indexed.
+3)Run (double click) server.py at the root of the project. This will start a local websserver and automatically open a browser's window.
+
+4) Enter your email (gmail accounts only) and password and login.
+
+5) WHIBTT will now start indexing your email. Indexing all of your emails will take it's time but the application lets you see results with just a few emails indexed.

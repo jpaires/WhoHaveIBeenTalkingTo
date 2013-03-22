@@ -41,7 +41,8 @@ This project is just a proof of concept, a prototype. Issues such as performance
 The objective was to show our idea through a simple and fast implementation with just a few weeks of analysis, development and tests.
 
 Having said that, here are the steps you should follow to see it live:
-- Download and install Python 2.7. It may just work on other versions, but this "official" python version for this project
+1) Download and install Python 2.7. It may just work on other versions, but this "official" python version for this project
+
 - Download and unzip this project to your computer (duh!)
 - Run (double click) server.py at the root of the project. This will start a local websserver and automatically open a browser's window.
 - Enter your email (gmail accounts only) and password and login.

@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+        <title>Who Have I Been Talking to</title>
+        <script type="text/javascript" src="libs/jquery/jquery-1.5.2.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="theme.css" />
+    </head>
+  
+    <body style="margin: 20px 0px 0px 50px;">
+        <div id="language-panel">
+	        <h1>Not so fast...</h1>
+	        It seems that your language is not supported by this version.<br/>
+	        Help us helping you! Choose, on the drop-down lists bellow, the correct labels for your language.<br/>
+	        <br/>
+        
+        
+	        <form method="post" action="choose_label_action">
+	        	<table border="0">
+					<tr>
+						<td style="align:right"><label>All mails label</label>:</td>
+						<td>%s</td>
+					</tr>
+					
+					<tr>
+						<td style="align:right"><label>Sent mails label</label>:</td>
+						<td>%s</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><button type="submit" style="float:right" value="Done!">Done!</button></td>
+					</tr>
+				</table>
+	        
+	        </form>
+        </div>
+        
+        <div id="wait-panel" style="display:None;width:160px;">
+        	<span style="font-size:32px">Please wait</span><br/>
+            <img src="login-wait.gif"><br/><br/>
+            <span style="font-size:12px; text-align: justify;">We are trying again with the labels you just gave us.</span>
+        </div>
+        
+        <script type="text/javascript">
+        
+            $('#language-panel').submit(function() {
+                $("#language-panel").fadeOut(
+                    function()
+                    {
+                        $("#wait-panel").fadeIn();
+                    }
+                );
+            });
+        
+    </script>
+    </body>
+</html>

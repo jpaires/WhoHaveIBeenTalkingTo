@@ -1,0 +1,91 @@
+body {
+      font-family: "MyRiad Pro", Calibri, Arial, Helvetica, sans-serif;
+      background-color:#EEE;
+      color:#222;
+      //text-align: center;
+}
+
+#banner {
+    text-align: center;
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#banner h1 {
+    color: #666;
+    font-family: "MyRiad Pro", Calibri, Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+    text-shadow: 0px 2px 1px #999;
+}
+
+/*
+#banner {
+    margin-top:0px;
+    text-align:center;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 1px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+*/
+
+#login-panel {
+    //background-image:url('/login-panel.png');
+    background-image:url('/login-panel.png');
+    width:500px;
+    padding-top:30px;
+    height:340px;
+    background-repeat:no-repeat;
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 18px;
+}
+
+input {
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #CCC;
+    padding:5px;
+	width:25px; 
+}
+
+button {
+    font-size: 16px;
+    font-family: "MyRiad Pro", Calibri, Arial, Helvetica, sans-serif;
+    cursor: Pointer;
+    background-color: #222;
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .25), rgba(255, 255, 255, .11));
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, rgba(255, 255, 255, .25)),color-stop(1, rgba(255, 255, 255, .11)));
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .11));
+    color: white;
+    text-rendering: optimizeLegibility;
+    //text-shadow: 0 -1px 1px #222;
+    padding: 2px 10px 2px 10px;
+    border: 0;
+    border-radius: 5px;
+    border-bottom: 1px solid #222;
+    //margin: 0;
+    //-moz-box-shadow: 0 1px 3px #999;
+    //-webkit-box-shadow: 0 1px 3px #999;
+                
+    /*
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+    */
+            
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left:2px;
+}
+
+button#login {
+    font-size: 25px !important;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px #999;
+    -webkit-box-shadow: 0 1px 3px #999;
+}

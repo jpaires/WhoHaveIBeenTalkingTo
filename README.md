@@ -1,7 +1,7 @@
 Who Have I Been Talking To
 =====================
 
-"Who Have I Been Talking To" is a visualization of the users' email account that can provide insights about his/her relationships with others and how those relations have evolved over time.
+"Who Have I Been Talking To" (aka WHIBTT) is a visualization of the users' email account that can provide insights about his/her relationships with others and how those relations have evolved over time.
 
 ![Overview](/docs/overview.png)
 
@@ -33,3 +33,16 @@ For this project we used:
 - Cherrypy - A Minimalist Python Web Framework that allows developers to build web applications in much the same way they would build any other object-oriented Python program. 
 - jQuery / jQuery UI- For dealing with the client side scripts and UI.
 - Protovis - A nice visualization toolkit that uses JavaScript and SVG for web-native visualizations.
+
+About using it
+=====================
+
+This project is just a proof of concept, a prototype. Issues such as performance, security, etc, were not taken into account. 
+The objective was to show our idea through a simple and fast implementation with just a few weeks of analysis, development and tests.
+
+Having said that, here are the steps you should follow to see it live:
+1) Download and install Python 2.7. It may just work on other versions, but this "official" python version for this project
+2) Download and unzip this project to your computer (duh!)
+3) Run (double click) server.py at the root of the project. This will start a local websserver and automatically open a browser's window.
+4) Enter your email (gmail accounts only) and password and login.
+5) WHIBTT will now start indexing your email. Indexing all of your emails will take it's time but the application lets you see results with just a few emails indexed.
